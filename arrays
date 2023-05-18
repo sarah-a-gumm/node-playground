@@ -1,0 +1,11 @@
+//Arrays
+var arrays_x = [10,20,30];
+var arrays_y = [10,20,"Shoe", true];
+
+console.log(arrays_x[0]); // outputs 10
+console.log(arrays_y[2]); //outputs "Shoe"
+console.log(arrays_x.length); //outputs total number of items in the array (3)
+arrays_x[2] = 40; // sets the 3rd record to 40, instead of 30
+arrays_x.push(50,60); //'push' adds items to the array
+console.log(arrays_x);
+arrays_x.pop(); //removes last item in the array
